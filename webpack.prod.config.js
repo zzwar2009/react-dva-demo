@@ -103,7 +103,7 @@ module.exports={
             "reducers":path.join(process.cwd(), "./src/reducers"),
             "styles": path.join(process.cwd(), "./src/styles"),
             "common": path.join(process.cwd(), "./src/common"),
-            '@':path.join(__dirname, '../src'),
+            '@':path.join(process.cwd(), "./src"),
         }
     }
 }
