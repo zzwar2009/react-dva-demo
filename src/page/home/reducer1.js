@@ -1,7 +1,7 @@
 
 
 let initialState = {
-    count:0
+    count:1000
 }
 export default function(state = initialState,action){
     switch(action.type){
