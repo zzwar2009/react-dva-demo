@@ -2,7 +2,7 @@
 const Model = {
   namespace: 'counter',
   state: {
-      value:0
+      value:100
   },
   effects: {
     *asyncAdd(_, { put }) {
