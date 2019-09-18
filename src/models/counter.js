@@ -1,4 +1,4 @@
-// import { delay, takeLatest } from 'redux-saga' 
+import { delay } from 'redux-saga/effects' 
 const Model = {
   namespace: 'counter',
   state: {
@@ -6,7 +6,7 @@ const Model = {
   },
   effects: {
     *asyncAdd(_, { put }) {
-        // yield delay(1000);
+        yield delay(1000);
         yield put({
             type: 'add',
             payload: {

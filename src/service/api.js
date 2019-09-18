@@ -18,7 +18,7 @@ function ajax(method, url, data) {
   
   
 function request(){
-return ajax('GET', 'https://www.tianqiapi.com/api/?version=v1&cityid=101110101&appid=1001&appsecret=5566');
+return ajax('GET', 'https://www.tianqiapi.com/api/?version=v1&cityid=101110101&appid=14789911&appsecret=fzFpo2lt');
 }
 export {
     request
