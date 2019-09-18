@@ -56,7 +56,7 @@ class Home extends Component {
       console.log(countObj.count)
       return (
           <div className='main-wrap'>
-            <p>手写redux 成功！！！ </p>
+            <p>手写redux 成功！！！ branch 分支 </p>
             <p style={{color:colorObj.color}}>{countObj.count}</p>
             <button onClick={this.add.bind(this)}>+</button>
             <button onClick={this.min.bind(this)}>-</button>  
